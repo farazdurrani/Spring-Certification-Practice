@@ -1,6 +1,6 @@
 
-# Created by https://www.gitignore.io/api/java,linux,maven,gradle,eclipse
-# Edit at https://www.gitignore.io/?templates=java,linux,maven,gradle,eclipse
+# Created by https://www.gitignore.io/api/java,maven,gradle,windows,eclipse
+# Edit at https://www.gitignore.io/?templates=java,maven,gradle,windows,eclipse
 
 ### Eclipse ###
 .metadata
@@ -96,21 +96,6 @@ local.properties
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 
-### Linux ###
-*~
-
-# temporary files which can be created if a process still has a handle open of a deleted file
-.fuse_hidden*
-
-# KDE directory preferences
-.directory
-
-# Linux trash folder which might appear on any partition or disk
-.Trash-*
-
-# .nfs files are created when an open file is removed but is still being accessed
-.nfs*
-
 ### Maven ###
 target/
 pom.xml.tag
@@ -122,6 +107,31 @@ dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
 .mvn/wrapper/maven-wrapper.jar
+
+### Windows ###
+# Windows thumbnail cache files
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+
+# Dump file
+*.stackdump
+
+# Folder config file
+[Dd]esktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
 
 ### Gradle ###
 .gradle
@@ -142,5 +152,5 @@ gradle-app.setting
 ### Gradle Patch ###
 **/build/
 
-# End of https://www.gitignore.io/api/java,linux,maven,gradle,eclipse
-.attach_pid10025 .attach_pid25092
+# End of https://www.gitignore.io/api/java,maven,gradle,windows,eclipse 
+.mvn/ 
